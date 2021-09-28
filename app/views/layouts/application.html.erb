@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <title>Johanhanses - CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body class="flex flex-col lg:flex-row h-screen font-ibm">
+  <% if user_signed_in? %>
+    <%= render partial: "shared/navbar" %>
+
+    <main class="pt-12 lg:w-3/4">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
+      <%= yield %>
+    </main>
+  <% else %>
+    <main class="w-full pt-12 flex flex-col items-center">
+<!--      <p class="notice"><%#= notice %></p>-->
+<!--      <p class="alert"><%#= alert %></p>-->
+
+      <%= yield %>
+    </main>
+  <% end %>
+  </body>
+</html>
