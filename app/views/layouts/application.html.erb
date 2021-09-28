@@ -20,17 +20,17 @@
     <%= render partial: "shared/navbar" %>
 
     <main class="pt-12 lg:w-3/4">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+<!--      <p class="notice"><%#= notice %></p>-->
+<!--      <p class="alert"><%#= alert %></p>-->
 
       <%= yield %>
     </main>
   <% else %>
     <main class="w-full pt-12 flex flex-col items-center">
+      <%= yield %>
+
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
-
-      <%= yield %>
     </main>
   <% end %>
   </body>
