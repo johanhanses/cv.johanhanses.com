@@ -1,3 +1,63 @@
-<header class="lg:hidden">
-  Mobile header
+<header class="lg:hidden w-full h-16 bg-dark">
+  <div
+    data-controller="menu"
+    class="w-full h-full text-white flex items-center justify-between px-6 relative"
+  >
+
+    <div>
+      <p class="uppercase text-xl">Hello <%= Current.user.username ? Current.user.username : '' %>!</p>
+    </div>
+
+    <div data-action="click->menu#toggle">
+      <button
+        data-menu-target="burger"
+        class="focus:outline-none focus:ring-2 focus:ring-blue-500 mt-2"
+        id="options-menu"
+        aria-haspopup="true"
+        aria-expanded="true"
+      >
+        <svg viewBox="0 0 100 80" class="text-white fill-current h-8 w-8">
+          <rect width="100" height="12" rx="0"></rect>
+          <rect y="30" width="100" height="12" rx="0"></rect>
+          <rect y="60" width="100" height="12" rx="0"></rect>
+        </svg>
+      </button>
+
+      <button
+        data-menu-target="cross"
+        class="focus:outline-none focus:ring-2 focus:ring-blue-500 mt-2 hidden"
+        id="options-menu"
+        aria-haspopup="true"
+        aria-expanded="true"
+      >
+
+        <svg viewBox="0 0 94.926 94.926" class="fill-current text-white h-6 w-6">
+          <g>
+            <path
+              d="M55.931,47.463L94.306,9.09c0.826-0.827,0.826-2.167,0-2.994L88.833,0.62C88.436,0.224,87.896,0,87.335,0
+              c-0.562,0-1.101,0.224-1.498,0.62L47.463,38.994L9.089,0.62c-0.795-0.795-2.202-0.794-2.995,0L0.622,6.096
+              c-0.827,0.827-0.827,2.167,0,2.994l38.374,38.373L0.622,85.836c-0.827,0.827-0.827,2.167,0,2.994l5.473,5.476
+              c0.397,0.396,0.936,0.62,1.498,0.62s1.1-0.224,1.497-0.62l38.374-38.374l38.374,38.374c0.397,0.396,0.937,0.62,1.498,0.62
+              s1.101-0.224,1.498-0.62l5.473-5.476c0.826-0.827,0.826-2.167,0-2.994L55.931,47.463z"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
+
+    <div
+      data-menu-target="menu"
+      class="hidden absolute right-0 top-16 left-0 bg-dark shadow-lg origin-top transition-all duration-300"
+    >
+      <div class="p-6 text-left space-y-3 text-xl uppercase" role="menu">
+        <%= link_to 'Cover letter', root_path, class: "hover:underline block" %>
+
+        <%= link_to 'CV', cv_path, class: "hover:underline block" %>
+
+        <%= link_to 'About', about_path, class: "hover:underline block" %>
+
+        <%= button_to 'Log out', destroy_user_session_path, method: :delete,  class: "uppercase hover:underline inline-block" %>
+      </div>
+    </div>
+  </div>
 </header>
