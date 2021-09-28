@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/ghiculescu/devise.git
-  revision: e37ea6a0143b9b8a3477b1ed397d8a22ad317a61
-  branch: patch-2
+  remote: https://github.com/strobilomyces/devise
+  revision: 755e84b7228f19be0e82bdc5486073715b2a32ed
+  branch: patch-1
   specs:
-    devise (4.7.3)
+    devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)
