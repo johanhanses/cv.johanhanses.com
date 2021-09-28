@@ -1,15 +1,20 @@
 <section class="max-w-3xl w-full mx-auto">
-  <h2 class="text-3xl mb-12 text-center">Tjena!</h2>
+  <h2 class="text-3xl mb-12 text-center">Hello there!</h2>
 
   <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <div class="w-full mb-6">
-      <%= f.label :email, class: "sr-only" %>
-      <%= f.email_field :email, autofocus: true, placeholder: "e-mail", class: "form-input bg-gray-200 w-1/2 h-12 mx-auto block px-4 focus:ring-2 ring-dark" %>
+      <%= f.label :username, class: "sr-only" %>
+      <%= f.text_field :username, autofocus: true, placeholder: "Username", class: "form-input bg-gray-200 w-1/2 h-12 mx-auto block px-4 focus:ring-2 ring-dark" %>
     </div>
+
+<!--    <div class="w-full mb-6">-->
+      <%#= f.label :email, class: "sr-only" %>
+      <%#= f.email_field :email, autofocus: true, placeholder: "e-mail", class: "form-input bg-gray-200 w-1/2 h-12 mx-auto block px-4 focus:ring-2 ring-dark" %>
+<!--    </div>-->
 
     <div class="w-full mb-6">
       <%= f.label :password, class: "sr-only" %>
-      <%= f.password_field :password, placeholder: "password", class: "form-input bg-gray-200 w-1/2 h-12 mx-auto block px-4 focus:ring-2 ring-dark active:bg-red-500" %>
+      <%= f.password_field :password, placeholder: "Password", class: "form-input bg-gray-200 w-1/2 h-12 mx-auto block px-4 focus:ring-2 ring-dark active:bg-red-500" %>
     </div>
 
     <% if devise_mapping.rememberable? %>

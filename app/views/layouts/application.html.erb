@@ -5,7 +5,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <title>Johanhanses - CV</title>
+    <title>CV - Johan Hanses</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +29,8 @@
     <main class="w-full pt-12 flex flex-col items-center">
       <%= yield %>
 
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+      <p class="text-yellow-500"><%= notice %></p>
+      <p class="text-red-500"><%= alert %></p>
     </main>
   <% end %>
   </body>
