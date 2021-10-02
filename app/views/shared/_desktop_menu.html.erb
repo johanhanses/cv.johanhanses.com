@@ -4,11 +4,11 @@
   </div>
 
   <nav class="uppercase text-xl space-y-6 text-right">
-    <%= link_to 'Cover letter', root_path, class: "hover:underline block" %>
+    <%= link_to 'Cover letter', root_path, class: class_names("hover:underline block", { active: current_page?(root_path) }) %>
 
-    <%= link_to 'CV', cv_path, class: "hover:underline block" %>
+    <%= link_to 'CV', cv_path, class: class_names("hover:underline block", { active: current_page?(cv_path) }) %>
 
-    <%= link_to 'About', about_path, class: "hover:underline block" %>
+    <%= link_to 'About', about_path, class: class_names("hover:underline block", { active: current_page?(about_path) }) %>
   </nav>
 
   <nav class="text-sm text-right">
