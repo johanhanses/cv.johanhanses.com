@@ -1,12 +1,141 @@
 <section>
-  <%= @header %>
-  <br />
-  <br />
-  <%= @skills %>
-  <br />
-  <br />
-  <%= @work_experience %>
-  <br />
-  <br />
-  <%= @education %>
+  <div>
+    <h1 class="text-xl pb-2"><%= @header["name"] %></h1>
+    <hr />
+
+    <div class="flex flex-col md:flex-row md:justify-between mt-2 mb-8">
+      <div class="w-full md:w-4/6">
+        <div class="flex">
+          <p class="md:w-2/6">Address:</p>
+          <p class="md:w-4/6 pl-4"><%= @header["address"] %></p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Mobile number:</p>
+          <p class="md:w-4/6 pl-4"><%= @header["phone"] %></p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Email:</p>
+          <p class="md:w-4/6 pl-4">
+            <a href="mailto:<%= @header["email"] %>" class="text-dark hover:underline">
+              <%= @header["email"] %>
+            </a>
+          </p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Date of birth:</p>
+          <p class="md:w-4/6 pl-4"><%= @header["dateofbirth"] %></p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Github:</p>
+          <p class="md:w-4/6 pl-4">
+            <a target="_blank" href="<%= @header["github"] %>" class="text-dark hover:underline">
+              <%= @header["github"] %>
+            </a>
+          </p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">LinkedIn:</p>
+          <p class="md:w-4/6 pl-4">
+            <a target="_blank" href="<%= @header["linkedin"] %>" class="text-dark hover:underline break-all">
+              <%= @header["linkedin"] %>
+            </a>
+          </p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Languages:</p>
+          <p class="md:w-4/6 pl-4 break-words">
+            <%= @header["lang"] %>
+          </p>
+        </div>
+        <div class="flex">
+          <p class="md:w-2/6">Drivers license:</p>
+          <p class="md:w-4/6 pl-4">
+            <%= @header["driverslic"] %>
+          </p>
+        </div>
+      </div>
+
+      <div class="order-first md:order-last mb-6 md:mb-0 w-full md:w-auto">
+        <%= image_tag "jag.png", alt: "me", class: "h-auto w-auto mx-auto" %>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2 class="text-lg pb-2">Skills</h2>
+    <hr />
+
+    <div class="mt-2 mb-8 space-y-1">
+      <p><strong>Programming: </strong><%= @skills["programming"] %></p>
+      <p><strong>Frontend: </strong><%= @skills["frontend"] %></p>
+      <p><strong>Backend: </strong><%= @skills["backend"] %></p>
+      <p><strong>Databases: </strong><%= @skills["db"] %></p>
+      <p><strong>Tooling: </strong><%= @skills["tools"] %></p>
+      <p><strong>Testing: </strong><%= @skills["test"] %></p>
+      <p><strong>Server: </strong><%= @skills["server"] %></p>
+      <p><strong>Other: </strong><%= @skills["other"] %></p>
+    </div>
+  </div>
+
+  <div class="work">
+    <h2 class="text-lg pb-2">Work experience</h2>
+    <hr />
+
+    <% @work_experience.each do |work| %>
+      <div class="mt-3 mb-8">
+        <table>
+          <tr>
+            <td style="min-width: 110px; vertical-align:top;">
+              <%= work["date"] %>
+            </td>
+            <td class="pl-4">
+              <strong><%= work["employee"] %></strong>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="pl-4">
+              <i><%= work["position"] %></i>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="pl-4"><%= work["description"] %></td>
+          </tr>
+        </table>
+      </div>
+    <% end %>
+  </div>
+
+  <div>
+    <h2 class="text-lg pb-2">Education</h2>
+    <hr />
+
+    <% @education.each do |edu| %>
+      <div class="mt-3 mb-8">
+        <table>
+          <tr>
+            <td style="min-width: 110px; vertical-align:top;" >
+              <%= edu["date"] %>
+            </td>
+            <td class="pl-4">
+              <strong><%= edu["education"] %></strong>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="pl-4"><%= edu["school"] %></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="pl-4"><%= edu["points"] %></td>
+          </tr>
+          <tr class="bottom">
+            <td></td>
+            <td class="pl-4"><%= edu["description"] %></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  <% end %>
 </section>

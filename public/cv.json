@@ -7,141 +7,142 @@
     "dateofbirth": "1983-09-11",
     "github": "https://github.com/johanhanses",
     "linkedin": "https://www.linkedin.com/in/johanhanses/",
-    "lang": "Svenska - modersmål, Engelska - flytande",
+    "lang": "Swedish - native, English - fluent",
     "driverslic": "B"
   },
 
   "skills": {
     "programming": "PHP 7+, Ruby, JavaScript/ES6+, Python.",
-    "frontend": "HTML, CSS, Alpinejs, Hotwire, htmx, TailwindCSS, Bootstrap, Vue, Laravel, Ruby on Rails.",
+    "frontend": "HTML, CSS, Alpinejs, Hotwire, Htmx, TailwindCSS, Bootstrap, Vue, Nativescript - Vue, Laravel, Ruby on Rails.",
     "backend": "REST, Laravel, Ruby on Rails, Django, Expressjs.",
     "db": "MySQL, PostgreSQL, MongoDB, DynamoDB.",
     "tools": "Composer, Yarn, RubyGem, Bundler, NPM, Wordpress, Git, Github, Prettier, Esbuild, Laravel Mix, Webpack, Docker.",
     "test": "PHPUnit, Pest, RSpec, Jest, Mocha.",
     "server": "Linux (Ubuntu, Debian), Apache, Nginx.",
-    "other": "Molntjänster via: AWS, Azure, GCP, Digital ocean, Glesys. ER/Databas-Modellering."
+    "other": "Cloudservices: AWS, Azure, GCP, Digital ocean, Glesys. ER/Database modeling."
   },
 
   "workexperience": [
     {
       "date": "2020 - ",
       "employee": "Panang Kommunikation AB (Falun)",
-      "position": "Webbutvecklare",
-      "description": "Utveckling av webb- och mobilappar, Wordpressteman från grunden, ofta med kundanpassad funktionalitet och integration med externa system/APIer."
+      "position": "Web Developer",
+      "description": "Developing web and phone applications, Wordpress themes from scratch, often with custom functionality and/or integrations of external systems/APIs"
     },
     {
       "date": "2019 - 2020",
-      "employee": "Stora Enso AB (Falun) konsult via Petra Back HR",
-      "position": "HR-Administratör",
-      "description": "Extrajobb vid sidan av studier"
+      "employee": "Stora Enso AB (Falun) consultant through Petra Back HR",
+      "position": "HR Administrator",
+      "description": "Side job during studies."
     },
     {
       "date": "2018 - 2019",
       "employee": "HomeMaid AB (Falun)",
-      "position": "Områdeschef",
-      "description": "Ansvarade för engångsuppdrag och kontorsservice. Kvalitet, arbetsmiljö och personalansvar"
+      "position": "Business Area Manager",
+      "description": "In charge of one-time assignments and company clients services. Quality, work/health environment and personnel responsibilities"
+
     },
     {
       "date": "2014 - 2018",
       "employee": "Scandbook AB (Falun)",
-      "position": "Produktionschef",
-      "description": "Ansvarade för produktionen och dess personal. Kvalitet/miljö, upphandlingar, och förhandlingar mm."
+      "position": "Production Manager",
+      "description": "In charge of production and it's staff. Quality/enviroment regualtions, procurement and negotiations."
     },
     {
       "date": "2011 - 2014",
       "employee": "Scandbook AB",
-      "position": "Produktionsplanerare",
-      "description": "Ansvarade för materialinköp och produktflöde samt skift/personalplanering "
+      "position": "Production Planner",
+      "description": "Responsible for material purchases and planning the flow of products in the factory as well as shifts/personnel planning"
     },
     {
       "date": "2008 - 2011",
       "employee": "Scandbook AB",
-      "position": "Maskinoperatör",
-      "description": "Ansvarade för produktionen i, samt inställning av maskinerna och ett arbetslag bestående av 2-3 maskinbiträden."
+      "position": "Machine Operator",
+      "description": "Responsible for the setup and the running of the machines. Managing a team consisting of 2-3 machine assistants."
     },
     {
       "date": "2006 - 2008",
       "employee": "Scandbook AB",
-      "position": "Maskinbiträde",
-      "description": "Limbinderiuppgifter"
+      "position": "Machine Assistant",
+      "description": "Assistant to the machine operator"
     }
   ],
 
   "education": [
     {
       "date": "2020 - 2020",
-      "school": "Uppsala universitet",
-      "education": "Dynamiska webbapplikationer (Distans)",
+      "school": "Uppsala University",
+      "education": "Dynamic web applications (Distance studies)",
       "points": "7,5 ECTS",
       "description": "JavaScript, HTML5, CSS3"
     },
     {
       "date": "2020 - 2020",
-      "school": "Valla folkhögskola",
-      "education": "Windows server 2016 grundkurs (Distans)",
-      "points": "20 veckor",
+      "school": "Valla folk high school",
+      "education": "Windows server 2016 basics (Distance studies)",
+      "points": "20 weeks",
       "description": "Powershell, IIS, Active directory, Systemadministration"
     },
     {
       "date": "2020 - 2020",
-      "school": "Linnéuniversitetet",
-      "education": "Webbteknik 1 (Distans)",
+      "school": "Linnaeus University",
+      "education": "Web technologies 1 (Distance studies)",
       "points": "7,5 ECTS",
       "description": "HTML5, CSS3"
     },
     {
       "date": "2019 - 2020",
       "school": "Hermods AB",
-      "education": "Programmering 1",
-      "points": "10 veckor",
+      "education": "Programming 1",
+      "points": "10 weeks",
       "description": "C#"
     },
     {
       "date": "2019 - 2019",
-      "school": "Valla folkhögskola",
-      "education": "Introduktion till Linux (Distans)",
-      "points": "20 veckor",
-      "description": "Ubuntu desktop- och server-systemadministration"
+      "school": "Valla folk high school",
+      "education": "Introduction till Linux (Distance studies)",
+      "points": "20 weeks",
+      "description": "Ubuntu desktop and server system administrations"
     },
     {
       "date": "2019 - 2019",
-      "school": "Malmö universitet",
-      "education": "Programmering i C# (Distans)",
+      "school": "Malmö University",
+      "education": "Programming in C# (Distance studies)",
       "points": "7,5 ECTS",
-      "description": "C#, Windows desktopappar"
+      "description": "C#, Windows desktop applications"
     },
     {
-      "date": "2019-2019",
-      "school": "Blekinge tekniska högskola",
-      "education": "Introduktion till Cloud computing (Distans)",
+      "date": "2019 - 2019",
+      "school": "Blekinge Institute of Technology",
+      "education": "Introduction to Cloud computing (Distance studies)",
       "points": "7,5 ECTS",
       "description": "AWS, Docker"
     },
     {
-      "date": "2019-2019",
-      "school": "Luleå tekniska universitet",
-      "education": "Webbutveckling 2 (Distans)",
+      "date": "2019 - 2019",
+      "school": "Luleå University of Technology",
+      "education": "Web development 2 (Distance studies)",
       "points": "7,5 ECTS",
-      "description": "PHP, JavaScript, ASP.net Core"
+      "description": "PHP, JavaScript, ASP.NET Core"
     },
     {
       "date": "2018 - 2019",
-      "school": "Blekinge tekniska högskola",
-      "education": "Webbprogrammering och databaser (Distans)",
+      "school": "Blekinge Institute of Technology",
+      "education": "Web programming and databases (Distance studies)",
       "points": "30 ECTS",
-      "description": "PHP, HTML5, CSS3, LESS, GIT, MySQL, MariaDB, JavaScript, Nodejs, Express."
+      "description": "PHP, HTML5, CSS3, LESS, GIT, MySQL, MariaDB, JavaScript, Nodejs, Expressjs."
     },
     {
       "date": "2004 - 2006",
-      "school": "Högskolan dalarna",
-      "education": "Ljud och musikproduktion",
+      "school": "Dalarna University",
+      "education": "Sound and music production",
       "points": "180 ECTS",
       "description": ""
     },
     {
       "date": "2002 - 2004",
-      "school": "Högskolan dalarna",
-      "education": "Kulturvetenskapligt program",
+      "school": "Dalarna University",
+      "education": "Cultural science program",
       "points": "180 ECTS",
       "description": ""
     }

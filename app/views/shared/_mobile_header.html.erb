@@ -5,7 +5,9 @@
   >
 
     <div>
-      <p class="uppercase text-xl">Hello <%= Current.user.username ? Current.user.username : '' %>!</p>
+      <%= link_to root_path, class: "uppercase text-xl" do %>
+        Hello <%= Current.user.username ? Current.user.username : '' %>!
+      <% end %>
     </div>
 
     <div data-action="click->menu#toggle">

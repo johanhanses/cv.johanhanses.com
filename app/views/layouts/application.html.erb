@@ -15,11 +15,11 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body class="flex flex-col lg:flex-row h-screen font-ibm">
+  <body class="flex flex-col lg:flex-row min-h-screen h-full font-ibm">
   <% if user_signed_in? %>
     <%= render partial: "shared/navbar" %>
 
-    <main class="pt-12 lg:w-3/4 px-6 lg:px-12 text-lg">
+    <main class="pt-12 lg:w-3/4 px-6 lg:px-12 text-base md:text-lg">
       <%= yield %>
     </main>
   <% else %>
