@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -148,6 +148,9 @@
       <workItem from="1633245295405" duration="11762000" />
       <workItem from="1633368124302" duration="215000" />
       <workItem from="1633368891279" duration="1564000" />
+      <workItem from="1633450301068" duration="1076000" />
+      <workItem from="1633781449828" duration="236000" />
+      <workItem from="1633845619669" duration="2135000" />
     </task>
     <servers />
   </component>
