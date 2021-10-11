@@ -19,7 +19,7 @@ My name is Johan Hanses and I am writing to let you know about my interest in th
 
 <p>When I read your ad for the position I immediately thought that Teamtailor and I could be a good fit, a lot of small things in the ad caught my interest, but the tech stack and the product it self stood out as very interesting. My previous experiences in HR and as a recruiting manager definitely helped spark an interest in the product.</p>
 
-<p>I live in Falun, Dalecarlia and when my time is not spent with my family, and my interests, apart from programming are running in the woods and some occasional guitar playing.
+<p>I live in Falun, Dalecarlia and when my time is not spent with my family, my interests, apart from programming are running in the woods and some occasional guitar playing.
 I hope to hear from you and to learn more about Teamtailor and to give you an opportunity to learn more about me, a person who goes all in.</p>
 
 <p>Best regards/</p>
