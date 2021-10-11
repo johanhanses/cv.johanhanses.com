@@ -13,7 +13,7 @@
 
   "skills": {
     "programming": "PHP 7+, Ruby, JavaScript/ES6+, Python.",
-    "frontend": "HTML, CSS, Alpinejs, Hotwire, Htmx, TailwindCSS, Bootstrap, Vue, React, Nativescript - Vue, Laravel, Ruby on Rails.",
+    "frontend": "HTML, CSS, Alpinejs, Hotwire, Htmx, Livewire, TailwindCSS, Bootstrap, Vue, React, Nativescript - Vue, Laravel, Ruby on Rails.",
     "backend": "REST, Laravel, Ruby on Rails, Django, Expressjs.",
     "db": "MySQL, PostgreSQL, MongoDB, DynamoDB.",
     "tools": "Composer, Yarn, RubyGem, Bundler, NPM, Wordpress, Git, Github, Prettier, Esbuild, Laravel Mix, Webpack, Docker.",
@@ -135,7 +135,7 @@
     {
       "date": "2004 - 2006",
       "school": "Dalarna University",
-      "education": "Sound and music production",
+      "education": "Audio and music production",
       "points": "180 ECTS",
       "description": ""
     },
