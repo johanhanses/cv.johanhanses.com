@@ -11,7 +11,11 @@
         </div>
         <div class="flex">
           <p class="md:w-2/6">Mobile number:</p>
-          <p class="md:w-4/6 pl-4"><%= @header["phone"] %></p>
+          <p class="md:w-4/6 pl-4">
+            <a href="tel:<%= @header["phone"] %>" class="text-dark hover:underline">
+              <%= @header["phone"] %>
+            </a>
+          </p>
         </div>
         <div class="flex">
           <p class="md:w-2/6">Email:</p>

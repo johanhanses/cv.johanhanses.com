@@ -5,11 +5,17 @@
   <div class="flex flex-col md:flex-row md:justify-between">
     <article class="md:w-2/3 mt-2 mb-8 space-y-2">
       <p>
-        This application is built using Ruby in rails 7, using the alpha 2 release, and Ruby 3.0.2.
+        This application is built using Ruby in rails 7, using the alpha 2 release, and Ruby version 3.0.2.
         The gem Devise is used for authentication, with some tinkering (issue <a href="https://github.com/heartcombo/devise/pull/5397" target="_blank" class="text-dark hover:underline">#5397)</a>.
       </p>
       <p>
         TailwindCSS is used for the CSS, the main reason being that I work with it daily. Once I "got" the API, I have never been more productive when working with design implementation.
+      </p>
+      <p>
+        JavaScript and CSS is bundled using the new <a href="https://github.com/rails/jsbundling-rails" target="_blank" class="hover:underline text-dark">jsbundling-rails</a> and <a href="https://github.com/rails/cssbundling-rails" target="_blank" class="hover:underline text-dark">cssbundling-rails</a> gems.
+      </p>
+      <p>
+        The application is deployed using a webhook when pushed to the main branch of the <a href="https://github.com/johanhanses/cv.johanhanses.com" target="_blank" class="hover:underline text-dark">repo</a> through <a href="https://www.hatchbox.io/" target="_blank" class="text-dark hover:underline">Hatchbox.io</a> and runs on a <a href="https://www.digitalocean.com/" target="_blank" class="text-dark hover:underline">Digital ocean</a> droplet.
       </p>
     </article>
   </div>
